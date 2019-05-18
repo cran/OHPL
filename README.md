@@ -1,37 +1,13 @@
 # Ordered Homogeneity Pursuit Lasso (OHPL)  <a href="https://ohpl.io"><img src="https://i.imgur.com/8Ei1J8i.png" align="right" alt="logo" height="180" width="180" /></a>
 
-[![Travis-CI Build Status](https://travis-ci.org/road2stat/OHPL.svg?branch=master)](https://travis-ci.org/road2stat/OHPL)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/gly6tao7yu6vfq85?svg=true)](https://ci.appveyor.com/project/road2stat/ohpl-8jvmx)
+[![Travis-CI Build Status](https://travis-ci.org/nanxstats/OHPL.svg?branch=master)](https://travis-ci.org/nanxstats/OHPL)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/nanxstats/OHPL?branch=master&svg=true)](https://ci.appveyor.com/project/nanxstats/ohpl)
 [![CRAN Version](https://www.r-pkg.org/badges/version/OHPL)](https://cran.r-project.org/package=OHPL)
 [![Downloads from the RStudio CRAN mirror](https://cranlogs.r-pkg.org/badges/OHPL)](https://cran.r-project.org/package=OHPL)
 
 ## Introduction
 
 `OHPL` implements the ordered homogeneity pursuit lasso (OHPL) algorithm for group variable selection proposed in Lin et al. (2017) <[DOI:10.1016/j.chemolab.2017.07.004](https://doi.org/10.1016/j.chemolab.2017.07.004)> ([PDF](https://nanx.me/papers/OHPL.pdf)). The OHPL method exploits the homogeneity structure in high-dimensional data and enjoys the grouping effect to select groups of important variables automatically. This feature makes it particularly useful for high-dimensional datasets with strongly correlated variables, such as spectroscopic data.
-
-## Installation
-
-To download and install `OHPL` from CRAN:
-
-```r
-install.packages("OHPL")
-```
-
-Or try the development version on GitHub:
-
-```r
-# install.packages("devtools")
-devtools::install_github("road2stat/OHPL")
-```
-
-To get started, try the examples in `OHPL()`:
-
-```r
-library("OHPL")
-?OHPL
-```
-
-[Browse the package documentation](https://ohpl.io/doc/) for more information.
 
 ## Paper Citation
 
@@ -54,3 +30,31 @@ BibTeX entry:
   url = "http://www.sciencedirect.com/science/article/pii/S0169743917300503"
 }
 ```
+
+## Installation
+
+To download and install `OHPL` from CRAN:
+
+```r
+install.packages("OHPL")
+```
+
+Or try the development version on GitHub:
+
+```r
+# install.packages("devtools")
+devtools::install_github("nanxstats/OHPL")
+```
+
+To get started, try the examples in `OHPL()`:
+
+```r
+library("OHPL")
+?OHPL
+```
+
+[Browse the package documentation](https://ohpl.io/doc/) for more information.
+
+## Contribute
+
+To contribute to this project, please take a look at the [Contributing Guidelines](CONTRIBUTING.md) first. Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
